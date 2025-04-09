@@ -17,7 +17,7 @@
 
 <body>
 
-  <header class="header">
+  <header class="header hidden">
     <div class="container header-container">
       <nav class="navigation">
         <a class="navigation-logo" href="./index.html">Web<span class="logo-part-gray">Studio</span></a>
@@ -43,11 +43,16 @@
           </li>
         </ul>
       </address>
+      <button type="button" class="burger-btn">
+        <svg class="burger-btn-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
     </div>
   </header>
 
   <main>
-    <section class="hero-page">
+    <section class="hero-page hidden">
       <div class="container">
         <h1 class="hero-page-title">Effective Solutions <span class="lower-text">for</span> Your Business</h1>
 
@@ -55,7 +60,7 @@
       </div>
     </section>
 
-    <section class="features section">
+    <section class="features">
       <div class="container">
         <h2 class="visually-hidden">Benefits</h2>
         <ul class="features-list">
@@ -111,7 +116,7 @@
       </div>
     </section>
 
-    <section class="team section">
+    <section class="team hidden">
       <div class="container">
         <h2 class="team-title title-section">Our team</h2>
         <ul class="team-list">
@@ -283,7 +288,7 @@
       </div>
     </section>
 
-    <section class="portfolio section">
+    <section class="portfolio hidden">
       <div class="container">
         <h2 class="portfolio-title title-section">Our Portfolio</h2>
         <ul class="portfolio-list">
@@ -377,7 +382,7 @@
     </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer hidden">
     <div class="container footer-container">
       <div class="futer-dscr">
         <a class="futer-logo" href="./index.html">Web<span class="logo-part-white">Studio</span></a>
@@ -436,7 +441,7 @@
     </div>
   </footer>
 
-  <div class="modal-overlay">
+  <div class="modal-overlay hidden">
     <div class="modal">
       <button class="modal-close-btn" type="button">
         <svg class="icon-close" width="8" height="8">
@@ -477,7 +482,8 @@
           <textarea class="modal-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
         </div>
         <div class="modal-chekbox-field">
-          <input class="chekbox-aggriment visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+          <input class="chekbox-aggriment visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"
+            value="true">
           <label class="chekbox-text" for="user-privacy"><span class="modal-checkbox">
               <svg class="checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-check"></use>
