@@ -1052,7 +1052,7 @@ header {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
+.modal-overlay.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
